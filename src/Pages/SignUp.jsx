@@ -31,7 +31,6 @@ const SignUp = () => {
           />
       </div>
       <div>
-          {/* <span className='absolute text-sm' > password at last 6 word</span> */}
           <input
               onChange={(e) => setPassword(e.target.value)}
               value={password}
